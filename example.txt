@@ -1,0 +1,88 @@
+Machine Learning ou apprentissage automatique est l’un des champs de l’intelligence artificielle (IA). Ce domaine apparu tout au début des années 1960 va devenir de nos jours très incontournable au XXIe siècle pour la résolution de problèmes concrets et complexes.
+
+Dans cet article, je le présente dans ces grandes lignes pour avoir les fondamentaux de ce riche domaine.
+
+Qu’est-ce que le Machine Learning
+Field of study that gives computers the ability to learn without being explicitly programmed.
+
+Arthur Samuel, 1959, Machine Learning
+Selon ce pionnier du Machine Learning, cette méthode permet aux machines, sans assistance majeure, d’apprendre toutes seules.
+L’apprentissage automatique va consister à mesurer la performance P de la machine à faire une tâche spécifique T à partir d’une expérience E (Tom Mitchell, 1998, Well-posed Learning Problem). Par exemple, si nous voulons apprendre à notre machine à détecter dans une boîte mail les spams, nous aurons comme :
+
+Tâche T : classifier nos mails en spam ou non-spam ;
+Expérience E : étiqueter les mails en spam ou non-spam ;
+Performance P : le nombre de mails classifiés en spam / non-spam.
+Le Machine Learning se base sur deux principales approches : l’apprentissage supervisé et l’apprentissage non-supervisé.
+
+Apprentissage supervisé
+L’apprentissage supervisé, supervised learning en anglais, consiste à faire apprendre à la machine en lui fournissant des exemples « étiquetés ».
+
+Superficie (m2)	Prix (euros)
+90	45 800
+16	3 900
+310	256 700
+23	2 500
+65	28 400
+42	84 000
+123	86 230
+31	90 870
+10	3 500
+Exemple de jeu de données
+Prenons l’exemple classique de la prédiction du prix d’achat d’une maison en fonction de sa superficie. On fournit à la machine le jeu de données ci-dessus (données d’entraînement) comprenant des exemples de superficie et de prix associé.
+Notre variable d’apprentissage est superficie et la variable cible (à prédire) est prix.
+La machine va apprendre de ce jeu de données de tel sorte que lorsqu’on lui fournira un jeu de données (données de test) composé uniquement de superficie, elle sera capable de prédire le prix associé.
+
+Deux grands problèmes de Machine Learning sont possibles avec l’apprentissage supervisé : la régression et la classification.
+
+Le problème de régression
+Prédire le prix d’achat d’une maison comme vu ci-dessus est un problème de régression. En effet, un problème de régression est un problème où la variable cible est une variable continue.
+
+Pour des problèmes de régression, voici quelques modèles qui sont appropriés :
+
+Régression linéaire (je vous recommande l’un de nos articles sur le sujet) ;
+Support Vector Machines (SVM) ;
+Decision trees (arbres de décision) ;
+K-plus proches voisins ;
+Réseaux de neurones ;
+Le problème de classification
+À l’opposé de la régression, dans un problème de classification, la variable cible est discrète. Par exemple, prédire si le mail reçu est un spam ou non est un problème de classification.
+
+Pour ce type de problème, voici quelques modèles à utiliser :
+
+Régression logistique ;
+SVM ;
+Naive Bayes ;
+Analyse Discriminante Linéaire (LDA) ;
+Réseaux de neurones ;
+Apprentissage non-supervisé
+L’apprentissage non-supervisé, unsupervised learning en anglais, quant à lui va apprendre « sur le tas ». Dans cette approche, on n’étiquette pas au préalable la variable à prédire, la machine avec très peu d’indications va fournir des patterns/règles à partir des données fournies.
+
+Prenons l’exemple d’une collection de véhicules. Nous avons des berlines, des trottinettes, des tricycles, des citadines, des 4×4, des roadsters, des sport-GT, des monospaces.
+La machine va regrouper ces différents véhicules en trois catégories pendant la phase d’apprentissage :
+
+4 roues : berlines, citadines, 4×4, monospaces ;
+2 roues : trottinettes, roadsters, sport-GT ;
+3 roues : tricycles.
+Si un vélo est donné à notre machine, elle pourra prédire le vélo dans l’ensemble des 2 roues.
+Parmi les applications de l’apprentissage non-supervisé, nous pouvons citer notamment :
+
+L’analyse des réseaux sociaux (groupes d’amis, relations de rang 1, etc.) ;
+La segmentation de marché (identification de groupes de clients) ;
+L’analyse des données astronomiques (étoiles, commettes, satellites, etc.) ;
+La détection de formes, de visages, etc. ;
+Ces différentes applications peuvent utiliser les modèles suivants :
+
+Clustering (voir notre article à ce sujet) ;
+Détection d’anomalies ;
+Réseaux de neurones ;
+Ressources complémentaires
+Coursera, Machine Learning, https://www.coursera.org/learn/machine-learning
+Scikit-learn, User Guide, https://scikit-learn.org/stable/user_guide.html
+Conclusion
+Le Machine Learning tel que présenté dans cet article se révèle très simple et accessible au travers de ces quelques approches apprentissages supervisé et non-supervisé, régression, classification, et les multiples applications qu’il rend possible.
+L’apprentissage automatique, au-delà des concepts et modèles qu’il propose s’enrichit et enrichit d’autres domaines tels que les statistiques, le Data Mining, l’IA, l’optimisation.
+Dans d’autres articles, nous irons à la découverte des modèles qu’il propose afin de toujours les rendre plus compréhensible et accessible.
+
+N’hésitez pas à partager si vous avez aimé cet article, mais aussi à laisser des commentaires afin de l’améliorer. 🤠
+
+Vous voulez publier sur ledatascientist.com ? C’est par ici.
