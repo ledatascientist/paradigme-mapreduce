@@ -2,7 +2,7 @@
 Source : https://medium.com/@elmaslouhy.mouaad/understanding-hadoop-mapreduce-f3e206cc3598
 
 # Le paradigme MapReduce
-Ce repository est lié à notre article [Le Paradigme MapReduce]().
+Ce repository est lié à notre article [Le Paradigme MapReduce](https://ledatascientist.com/le-paradigme-mapreduce/).
 
 ## Aperçu de l'article
 Depuis l'apparition du Big Data, les méthodes, architectures et outils de traitement de gros volumes de données n'ont cessé d'émerger : *MapReduce*, *Hadoop*, *Spark*, etc.\
